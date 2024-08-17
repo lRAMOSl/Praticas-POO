@@ -19,4 +19,24 @@ public class Calculadora {
         this.b = b;
     }
 
+    public float soma() {
+        return a + b;
+
+    }
+
+    public float subtracao() {
+        return a - b;
+
+    }
+
+    public float multiplicacao() {
+        return a * b;
+
+    }
+
+    public float divisao() {
+        return a / b;
+
+    }
+
 }
